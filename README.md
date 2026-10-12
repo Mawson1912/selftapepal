@@ -1,7 +1,7 @@
 # SelftapePal
 
 **A real-time voice app that acts as a scene partner for actors recording self-tape auditions.**
-Live at **[selftapepal.app](https://selftapepal.app)**, with paying subscribers in three currencies. Designed, built
+Live at **[selftapepal.app](https://selftapepal.app)**, with paying subscribers. Designed, built
 and run by me, end to end.
 
 > The product code is in a private repository because it's a live commercial product. This repo explains how it
@@ -60,7 +60,7 @@ flowchart LR
 | Data | SQLite: share and trial tokens, usage limits, accounts and analytics |
 | Speech | Deepgram Nova-3: streaming for live cue detection, batch transcription for recorded lines |
 | Script import | A PDF parser that reads page layout, with an OpenAI vision fallback for scanned scripts |
-| Payments and auth | Stripe subscriptions (EUR, GBP, USD) with webhook and billing portal; passwordless email login with JWTs |
+| Payments and auth | Stripe subscriptions with webhook and billing portal; passwordless email login with JWTs |
 | Native iOS (in progress) | Capacitor app with a Swift native audio plugin |
 | Testing | Unit tests for cue detection, plus an automated end-to-end check: headless Chrome with a simulated microphone runs the sample scene and records a take against the live API before every release |
 
