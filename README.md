@@ -137,9 +137,9 @@ It also caught my own mistakes: browsers reporting Windows 11 as "Windows 19", i
 link-preview bots that looked like a surge of visitors.
 
 ## How I work
-I build AI-first. AI coding tools produce drafts and implementation, and I set the direction, review the output,
-and test it on real devices, with real scripts and against real usage data. Decisions and investigations are
-written down as I go.
+I decide how the product works, looks and feels, and I use AI coding tools as a collaborator to build it faster and
+work through hard technical problems. Every change is reviewed and tested by me on real devices, with real scripts and
+against real usage data. Decisions and investigations are written down as I go.
 
 ---
 
